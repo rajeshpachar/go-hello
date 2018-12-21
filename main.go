@@ -1,12 +1,13 @@
 package main;
 
 import (
-"github.com/rajeshpachar/hellomod"
+"github.com/rajeshpachar/hellomod/hellotest"
 "github.com/rajeshpachar/hellomod/child"
+//"github.com/rajeshpachar/go-hello/privatehello"
 )
 
 func main(){
-	hellomod.SayHello("client calling")
-	hellomod.DepHello()
+	hellotest.SayHello("client calling")
+	hellotest.DepHello()
 	child.HelloChild()
 }
